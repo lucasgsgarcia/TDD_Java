@@ -1,4 +1,4 @@
-# TDD_Java
+# TDD_Java_MaximoDivisorComum
 ## Destinado ao aprendizado de Test-Driven Development
 <div style="display: inline_block"><br>
   <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
@@ -6,6 +6,7 @@
   <img align="center" alt="Maven" height="30" width="40" src="https://cdn.icon-icons.com/icons2/2107/PNG/128/file_type_maven_icon_130397.png">
 </div></br>
 
+Projeto baseado nas propriedades do cálculo de um [Máximo Divisor Comum](https://pt.wikipedia.org/wiki/Máximo_divisor_comum#Propriedades) de dois ou mais argumentos.
 
 Em suma, nas primeiras aulas fala sobre o código estar legível, também facilita o TDD.
 
@@ -18,3 +19,4 @@ TDD também é uma das formas de documentar o que se espera o que os software fa
 > “*Qualquer bobo pode escrever um código que um computador pode entender. Bons programadores escrevem códigos que humanos podem entender.”*
 
 > *“Testes apenas são capazes de mostrar a presença de erros, não a sua ausência.”*
+
