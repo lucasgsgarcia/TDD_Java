@@ -136,4 +136,28 @@ public class MathUtilTest {
         final int obtido = MathUtil.mdc(a,b);
         assertEquals(esperado, obtido);
     }
+
+    @Test
+    public void testMdcMultiplosValores(){
+        final int a = 30;
+        final int b = 12;
+        final int c = 4;
+        final int esperado = 2;
+        final int obtido = MathUtil.mdc(a,b,c);
+        assertEquals(esperado, obtido);
+    }
+
+    @Test
+    @Description("Verificação de excessão" +
+            "Se o usuário não informou os números para calcular o MDC, espera que essa exceção seja lançada")
+    public void testMdcNenhumParametro(){
+        assertThrows(IllegalArgumentException.class, () -> MathUtil.mdc());
+    }
+
+    @Test
+    @Description("Verificação de excessão" +
+            "Se o usuário informou como 'null' os números para calcular o MDC, espera que essa exceção seja lançada")
+    public void testMdcNulo(){
+        assertThrows(NullPointerException.class, () -> MathUtil.mdc(null));
+    }
 }
