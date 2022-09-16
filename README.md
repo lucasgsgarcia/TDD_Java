@@ -14,7 +14,7 @@ Seguir os princípios SOLID para tornar o código mais legível e de fácil manu
 
 O ideal é que para cada conjunto de funcionalidades, tenha um conjunto de testes prontos para que outras alterações, em classes distintas, garantam o bom funcionamento do sistema como um todo.
 
-TDD também é uma das formas de documentar o que se espera o que os software faça.
+TDD também é uma das formas de documentar o que se espera que o software faça.
 
 > “*Qualquer bobo pode escrever um código que um computador pode entender. Bons programadores escrevem códigos que humanos podem entender.”*
 
